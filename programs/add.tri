@@ -1,0 +1,18 @@
+! Read two integers, print sum and product
+! If the numbers are equal, print "Same!"
+
+let
+  var a : Integer;
+  var b : Integer
+in
+  begin
+  getint (var a); getint (var b);
+  if a = b then
+    begin
+    put('S'); put('a'); put('m'); put('e'); put('!');
+    puteol()
+    end
+  else ;
+  putint (a + b); puteol();
+  putint (a * b); puteol()
+  end
