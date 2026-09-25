@@ -6,6 +6,12 @@ $
 another new comment
 $
 
+$
+another new comment
+spanning multiple
+lines
+$
+
 begin
  put('H'); put('i'); put('!')
 end
