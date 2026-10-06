@@ -906,6 +906,7 @@ public final class Checker implements ActualParameterVisitor<FormalParameter, Vo
 		StdEnvironment.falseDecl = declareStdConst("false", StdEnvironment.booleanType);
 		StdEnvironment.trueDecl = declareStdConst("true", StdEnvironment.booleanType);
 		StdEnvironment.notDecl = declareStdUnaryOp("\\", StdEnvironment.booleanType, StdEnvironment.booleanType);
+		StdEnvironment.barDecl = declareStdUnaryOp("|", StdEnvironment.integerType, StdEnvironment.integerType);
 		StdEnvironment.andDecl = declareStdBinaryOp("/\\", StdEnvironment.booleanType, StdEnvironment.booleanType,
 				StdEnvironment.booleanType);
 		StdEnvironment.orDecl = declareStdBinaryOp("\\/", StdEnvironment.booleanType, StdEnvironment.booleanType,
